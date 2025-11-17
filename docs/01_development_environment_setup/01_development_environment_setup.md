@@ -9,17 +9,17 @@ has_children: true
 
 ## Scenario
 
-This training will have you implement a customer proof of concept using DevOps and AI-driven development practices. The customer in this scenario is Zava, a retail chain that specializes in "do-it-yourself" solutions for home improvement projects. Zava has a simple storefront prototype and would like to establish best practices for DevOps setup and AI-assisted development and delivery. In this lab, you will configure GitHub Enterprise with security best practices, set up Visual Studio Code, GitHub Copilot, and Azure MCP Server to streamline DevOps planning and delivery, and extend the solution using Azure AI Foundry to generate and enhance application code.
+This training will have you implement a customer proof of concept using DevOps and AI-driven development practices. The customer in this scenario is Zava, a retail chain that specializes in "do-it-yourself" solutions for home improvement projects. Zava has a simple storefront prototype and would like to establish best practices for DevOps setup and AI-assisted development and delivery. 
 
-In this exercise, you will set up your DevOps environment and build and run the solution, in preparation for later exercises.
+In this first exercise, you will configure GitHub Enterprise for your organization, install Docker Desktop, set up Visual Studio Code, and install extensions to Visual Studio Code such as GitHub Copilot, Bicep, Docker, and Azure MCP Server to streamline DevOps planning and delivery. You'll also build and run the solution, in preparation for later exercises.
 
 ## Objectives
 
 After completing this exercise, you'll be able to:
 
-* Set up GitHub Enterprise for your organization, and in a later exercise configure security best practices with GitHub Advanced Security
-* Fork the lab repository and create a local clone that you can build and run to validate the starting point of the solution
-* Install necessary extensions to Visual Studio Code to support later exercises with agentic DevOps
+* Set up GitHub Enterprise for your organization (in a later exercise you'll also configure security best practices with GitHub Advanced Security)
+* Fork and clone a repository 
+* Install extensions to Visual Studio Code to improve developer productivity and best practice coding
 
 ## Duration
 

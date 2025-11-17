@@ -9,9 +9,11 @@ has_children: true
 
 ## Scenario
 
-This training will have you implement a customer proof of concept using DevOps and AI-driven development practices. The customer in this scenario is Zava, a retail chain that specializes in "do-it-yourself" solutions for home improvement projects. Zava has a simple storefront prototype and would like to establish best practices for DevOps setup and AI-assisted development and delivery. In this lab, you will configure GitHub Enterprise with security best practices, set up Visual Studio Code, GitHub Copilot, and Azure MCP Server to streamline DevOps planning and delivery, and extend the solution using Azure AI Foundry to generate and enhance application code.
+This training will have you using Copilot features for development and also to automate devops delivery for the Zava solution.
 
-In this exercise, you will create a GitHub Actions CI/CD pipeline (workflow) to build and containerize the Zava application and then deploy it to your previously created Azure infrastructure.
+In the previous exercise, you used Copilot to create a GitHub issue and to generate the infrastructure Bicep scripts from the issue. You also deployed the infrastructure so that it is ready for deploying the solution. 
+
+In this exercise, you will create a GitHub Actions CI/CD pipeline (workflow) to build and containerize the Zava web application and then deploy it to your previously created Azure infrastructure.
 
 ## Objectives
 

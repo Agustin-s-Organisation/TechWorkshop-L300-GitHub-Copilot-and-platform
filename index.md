@@ -13,7 +13,7 @@ This lab guides you through a series of practical exercises for using GitHub Ent
 This lab has exercises on:
 
 * Setting up GitHub Enterprise
-* Planning and implementing infrastructure with Azure MCP and Bicep
+* Planning and implementing infrastructure with Azure MCP and Bicep using Copilot
 * Automating CI/CD pipelines using GitHub Actions and deploying to Azure
 * Securing development with GitHub Advanced Security
 * Boosting developer productivity by refactoring legacy code, building and deploying an AI chatbot agent using Copilot and AI Foundry

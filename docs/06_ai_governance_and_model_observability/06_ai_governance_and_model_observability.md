@@ -9,19 +9,33 @@ has_children: true
 
 ## Scenario
 
-Zava’s AI service runs on Azure App Service with Application Insights and Log Analytics (provisioned in earlier exercises). In this exercise you will extend observability and governance for the chat completion path by adding custom telemetry, infrastructure for visualization and alerting, and automated summarization in CI/CD.
+Zava's AI service uses Azure AI Foundry workspace deployments for chat completions.
+
+To operate responsibly at enterprise scale, the platform must enforce:
+
+- Identity-only access
+- Content safety and guardrails
+- Platform-native logging
+- Auditability
+- Model safety monitoring
+- Operational observability
+
+Azure AI Foundry emits **first-class diagnostic logs** for request behavior, safety events, latency, and auditing.
+
+This exercise enables Responsible AI controls through a combination of infrastructure configuration and application-level safety enforcement. You will use GitHub Copilot to configure identity-only access and diagnostic logging via Bicep templates, add content safety filtering at the application layer, and deploy an observability workbook to visualize operational data.
 
 ## Objectives
 
 After completing this exercise, you'll be able to:
 
-* Instrument AI chat completions with custom Application Insights telemetry (model version, latency, result)
-* Validate telemetry ingestion through Log Analytics queries
-* Deploy an Application Insights Workbook that visualizes latency by model version
-* Deploy an Azure Monitor alert that triggers on sustained high completion latency
-* Summarize AI performance in a GitHub Actions workflow to track performance changes over time
-* Interpret workbook charts and alert signals for governance decisions
+- Review and enforce Entra ID-only authentication using Copilot and Bicep
+- Restrict Foundry connections to Managed Identity and validate RBAC assignments
+- Enable Azure AI Foundry diagnostic logs and verify log ingestion
+- Configure content safety filters at the application layer using Copilot
+- Test and validate safety controls through safe and unsafe prompts
+- Deploy an observability workbook using Copilot-generated Bicep templates
+- Visualize operational diagnostics including request volume, latency, and operation breakdowns
 
 ## Duration
 
-* **Estimated Time:** 45–60 minutes
+* **Estimated Time:** 30–45 minutes
