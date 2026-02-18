@@ -1,0 +1,4 @@
+name: zava-storefront
+infra:
+  path: infra/main.bicep
+  parameters: infra/main.parameters.json

@@ -1,0 +1,11 @@
+param acrName string
+param location string
+
+resource acr 'Microsoft.ContainerRegistry/registries@2021-06-01' = {
+  name: acrName
+  location: location
+  sku: {
+    name: 'Basic'
+  }
+}
+output acrId string = acr.id
