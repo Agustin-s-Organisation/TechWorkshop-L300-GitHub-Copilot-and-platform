@@ -1,11 +1,11 @@
-name: Build and Deploy .NET App to Azure App Service (Container)
+name: Go for it !
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev ]
     paths: [ 'src/**' ]
   pull_request:
-    branches: [ '*' ]
+    branches: [ dev ]
   workflow_dispatch:
 
 jobs:
